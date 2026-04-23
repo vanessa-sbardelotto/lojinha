@@ -1,0 +1,16 @@
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 por linha */
+  gap: 20px;
+  padding: 20px;
+}

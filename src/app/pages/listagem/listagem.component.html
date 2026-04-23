@@ -1,0 +1,9 @@
+<div class="container">
+
+  <app-card-item
+    *ngFor="let item of produtos"
+    [produto]="item"
+    (favoritar)="adicionarFavorito($event)">
+  </app-card-item>
+
+</div>

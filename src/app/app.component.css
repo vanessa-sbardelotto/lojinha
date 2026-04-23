@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #111;
+  padding: 15px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: #333;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #ff4d6d;
+  transform: scale(1.05);
+}
+
+.active {
+  background: #ff4d6d;
+}

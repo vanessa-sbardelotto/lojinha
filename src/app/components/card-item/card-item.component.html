@@ -1,0 +1,17 @@
+<div class="card">
+
+  <h3>{{ produto.nome }}</h3>
+
+  <p> Tamanho: {{ produto.tamanho }}</p>
+  <p> Cor: {{ produto.cor }}</p>
+  <p> R$ {{ produto.preco }}</p>
+
+  <div class="botoes">
+
+    <button (click)="addFav()">Favoritar</button>
+
+    <button (click)="removerItem()">Remover</button>
+
+  </div>
+
+</div>

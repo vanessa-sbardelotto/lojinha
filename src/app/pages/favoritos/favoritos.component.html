@@ -1,0 +1,10 @@
+<h2>Favoritos</h2>
+
+<div *ngIf="favoritos.length === 0">
+  Nenhum item selecionado
+</div>
+
+<div *ngFor="let item of favoritos">
+  <p>{{ item.nome }} - R$ {{ item.preco }}</p>
+  <button (click)="remover(item)">Remover</button>
+</div>
